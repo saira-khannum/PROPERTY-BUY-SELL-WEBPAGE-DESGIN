@@ -1,0 +1,147 @@
+/* in tags have margin and padding to remove that we use this */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: product sans-serif;
+}
+.main{
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  background-color:pink;
+  padding: 0vw 5vw;
+}
+/* after nav space compulsary */
+ nav .lft-nav{
+display: flex;
+gap: 2vw; 
+
+}
+ nav .lft-nav a{
+  text-decoration-color: none;
+  color: #333;
+  align-items: center;
+  j
+}
+
+.cntr-nav{
+  font-size: 1.5vw;
+  font-weight: 800;
+} 
+.cntr-nav{
+  font-size: 1.5vw;
+  font-weight: 600; 
+
+}
+
+.rght-nav button
+{
+padding: 0.8vw 1.5vw;
+border: 1px solid #3FAD68;
+border-radius: 50px;
+font-size: 0.8vw;
+display: flex;
+gap: 2vw;
+}
+
+.rght-nav button{
+  background-color: black;
+  color: white;
+}
+
+nav .rght-nav{
+  display: flex;
+  gap: 2vw;
+}
+.part-1{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+ 
+
+  justify-content: center;
+
+}
+ .part{
+width: 100%;
+height: 99vh;
+background-color: gray;
+border-radius: 50px;
+background-image:  url(build.jpeg);  
+background-size: cover;
+background-position: center;
+
+ }
+.part h1{
+  font-size: 5vw;
+  text-align: center;
+  color: blue;
+
+
+}
+.pro{
+ border-radius: 20px;
+  width: 30%;
+  height: 15vh;
+  background-color: gold;
+
+  background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 0.5px );
+-webkit-backdrop-filter: blur( 0.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+  
+}
+.locate{
+  border-radius: 30px;
+  background-color: bisque;
+  border:1px salmon;
+}
+.home{
+  border-radius: 30px;
+  background-color: bisque;
+  border: none;
+}
+
+.op{color:blueviolet;
+  font-weight: 500;
+}
+.footer{
+  width: 100%;
+  height: 20vh;
+  background-color: rgb(155, 139, 139);
+  border-radius: 5%;
+  font-style: italic;
+  text-align: center;
+
+}
+.mainimg{
+  display: flex;
+  padding: 2px;
+gap:55px;
+}
+.img{
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 10px;
+}
+.img2{
+  border: 2px solid white;
+  border-radius: 30px;
+  padding: 10px;
+}
+.img3{
+  border: 2px solid white;
+  border-radius: 30px;
+padding: 10px;
+}
